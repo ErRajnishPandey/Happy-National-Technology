@@ -1,0 +1,398 @@
+/* Global Styles */
+
+*{
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+body {
+background-color: #f2f2f2;
+color: #333;
+font-size: 16px;
+line-height: 1.5;
+}
+
+/* Navbar */
+.navbar {
+background-color: #333;
+padding: 0.001rem 4rem;
+border-radius: 0;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+color: #fff;
+font-weight: bold;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+color: #ccc;
+}
+
+/* Carousel */
+.carousel-inner{
+max-height: 95vh;
+}
+
+.carousel-caption {
+  top: 20%;
+bottom: 10%;
+}
+
+.carousel-caption h5 {
+font-size: 3rem;
+font-weight: bold;
+text-shadow: 2px 2px #000;
+}
+
+.carousel-caption p {
+font-size: 1.5rem;
+font-weight: bold;
+text-shadow: 1px 1px #000;
+}
+
+/* Main Content */
+.card {
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+margin-bottom: 20px;
+overflow: hidden;
+transition: transform 0.3s;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+transform: translateY(-10px);
+}
+
+.card-img-top {
+height: 250px;
+object-fit: cover;
+}
+
+.card-body {
+padding: 20px;
+}
+
+.card-title {
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.card-text {
+font-size: 1rem;
+}
+
+.btn-primary {
+background-color: #007bff;
+border-color: #007bff;
+font-weight: bold;
+transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+background-color: #0062cc;
+border-color: #0062cc;
+color: #fff;
+}
+/*  */
+.container-A {
+  margin: 0 auto;
+  padding: 0 20px;
+  background: linear-gradient(to right, #ebc10a, #1ad623);
+  padding: 50px;
+  }
+  .container-J {
+    margin: 0 auto;
+    padding: 0 20px;
+    background: linear-gradient(to right, #df1692, #f50b0b);
+  padding: 50px;
+    }
+    .container-N {
+      margin: 0 auto;
+      padding: 0 20px;
+      background: linear-gradient(to right, #09f8d8, #1344e2);
+      padding: 50px;
+      }
+      .container-I {
+        margin: 0 auto;
+        padding: 0 20px;
+        background: linear-gradient(to right, #ff416c, #ff4b2b);
+        padding: 50px;
+        }
+        .container-R {
+          margin: 0 auto;
+          padding: 30px 20px;
+        }
+/*  */
+.an {
+    color: #fff;
+  background: linear-gradient(to right, #0ed360,#6cce11);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.bn {
+  color: #fff;
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cn {
+  color: #fff;
+  background: linear-gradient(to right, #f2994a, #f2c94c);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.dn {
+  color: #fff;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+ /* Jumbotron styles */
+ .jumbotron {
+    background-color: #222;
+    color: #fff;
+    text-align:start;
+    padding: 30px;
+  }
+
+  .jumbotron h1,
+  .jumbotron p {
+    margin-bottom: 30px;
+  }
+
+  .jumbotron hr {
+    border-top: 1px solid #ffffff;
+    width: 50%;
+    margin: 20px auto;
+  }
+
+  .jumbotron a.btn-primary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #222;
+    font-weight: bold;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .jumbotron a.btn-primary:hover {
+    background-color: #222;
+    color: #fff;
+  }
+  /* Style for the form container */
+.rajcontainer {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+/* Style for the contact info container */
+.rajcontainer-con {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  max-width: 500px;
+  /* padding: 20px; */
+}
+
+/* Style for the form labels */
+label {
+  font-weight: bold;
+}
+
+/* Style for the form input fields */
+.form-control {
+  border-radius: 0;
+  border-color: #ddd;
+}
+
+/* Style for the submit button */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0;
+}
+
+/* Style for the submit button when hovered */
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+/* Footer style */
+.footer {
+  background-color: #343a40; /* dark gray */
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.footer h4 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.footer form {
+  margin-bottom: 5px;
+}
+
+.footer input[type="text"],
+.footer input[type="email"] {
+  display: inline-block;
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+}
+
+.footer button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff; /* blue */
+  color: white;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.1);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.social-icons a {
+	display: inline-block;
+	margin: 10px 0px 10px 0px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #f2f2f2;
+	text-align: center;
+	line-height: 40px;
+	font-size: 25px;
+	color: #333;
+	transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.fa-facebook {
+	color: #3b5998;
+}
+
+.fa-twitter {
+	color: #00aced;
+}
+
+.fa-linkedin {
+	color: #0077b5;
+}
+
+  
+  .fa-instagram {
+	color: #e4405f;
+}
+/* mobile */
+@media (max-width: 768px) {
+  /* styles for screens smaller than 768px */
+  .card-img-top {
+  height: 250px;
+  }
+  
+  .card-body {
+  padding: 10px;
+  }
+  
+  .card-title {
+  font-size: 1.2rem;
+  }
+  
+  .card-text {
+  font-size: 0.9rem;
+  }
+  
+  .navbar {
+  padding: 0.5rem;
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+  font-size: 2rem;
+  font-weight: normal;
+  }
+  .carousel-inne {
+    max-height: 100vh;
+  }
+  
+  .carousel-caption h5 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px #000;
+  }
+  
+  .carousel-caption p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+  }
+  
+  .rajcontainer-con {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  }
+  .container-A ,
+  .container-J ,
+  .container-N ,
+  .container-I {
+    margin: 0 auto;
+    padding: 10px 10px;
+  }
+  .container-R{
+    margin: 0 auto;
+    padding: 0px;
+  }
+  }
+  
+/* 2slider */
+.carousel img {
+    width: 100%;
+  }
+.logo{
+  z-index:3;
+  position:relative;
+  height: 75px;
+  width: 75px;
+  display:inline-block;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
